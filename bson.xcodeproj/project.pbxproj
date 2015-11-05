@@ -6,12 +6,245 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		3738CE8C1BEAB61700938057 /* bson-ios.h in Headers */ = {isa = PBXBuildFile; fileRef = 3738CE8B1BEAB61700938057 /* bson-ios.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3738CE911BEAB61F00938057 /* b64_ntop.h in Headers */ = {isa = PBXBuildFile; fileRef = 3738CDF31BEAB09A00938057 /* b64_ntop.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3738CE921BEAB61F00938057 /* b64_pton.h in Headers */ = {isa = PBXBuildFile; fileRef = 3738CDF41BEAB09A00938057 /* b64_pton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3738CE931BEAB61F00938057 /* bcon.c in Sources */ = {isa = PBXBuildFile; fileRef = 3738CDF51BEAB09A00938057 /* bcon.c */; };
+		3738CE941BEAB61F00938057 /* bcon.h in Headers */ = {isa = PBXBuildFile; fileRef = 3738CDF61BEAB09A00938057 /* bcon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3738CE951BEAB61F00938057 /* bson-atomic.c in Sources */ = {isa = PBXBuildFile; fileRef = 3738CDF71BEAB09A00938057 /* bson-atomic.c */; };
+		3738CE961BEAB61F00938057 /* bson-atomic.h in Headers */ = {isa = PBXBuildFile; fileRef = 3738CDF81BEAB09A00938057 /* bson-atomic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3738CE971BEAB61F00938057 /* bson-clock.c in Sources */ = {isa = PBXBuildFile; fileRef = 3738CDF91BEAB09A00938057 /* bson-clock.c */; };
+		3738CE981BEAB61F00938057 /* bson-clock.h in Headers */ = {isa = PBXBuildFile; fileRef = 3738CDFA1BEAB09A00938057 /* bson-clock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3738CE991BEAB61F00938057 /* bson-compat.h in Headers */ = {isa = PBXBuildFile; fileRef = 3738CDFB1BEAB09A00938057 /* bson-compat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3738CE9A1BEAB61F00938057 /* bson-config.h in Headers */ = {isa = PBXBuildFile; fileRef = 3738CDFC1BEAB09A00938057 /* bson-config.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3738CE9B1BEAB61F00938057 /* bson-context-private.h in Headers */ = {isa = PBXBuildFile; fileRef = 3738CDFD1BEAB09A00938057 /* bson-context-private.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3738CE9C1BEAB61F00938057 /* bson-context.c in Sources */ = {isa = PBXBuildFile; fileRef = 3738CDFE1BEAB09A00938057 /* bson-context.c */; };
+		3738CE9D1BEAB61F00938057 /* bson-context.h in Headers */ = {isa = PBXBuildFile; fileRef = 3738CDFF1BEAB09A00938057 /* bson-context.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3738CE9E1BEAB61F00938057 /* bson-endian.h in Headers */ = {isa = PBXBuildFile; fileRef = 3738CE001BEAB09A00938057 /* bson-endian.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3738CE9F1BEAB61F00938057 /* bson-error.c in Sources */ = {isa = PBXBuildFile; fileRef = 3738CE011BEAB09A00938057 /* bson-error.c */; };
+		3738CEA01BEAB61F00938057 /* bson-error.h in Headers */ = {isa = PBXBuildFile; fileRef = 3738CE021BEAB09A00938057 /* bson-error.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3738CEA11BEAB61F00938057 /* bson-iso8601-private.h in Headers */ = {isa = PBXBuildFile; fileRef = 3738CE031BEAB09A00938057 /* bson-iso8601-private.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3738CEA21BEAB61F00938057 /* bson-iso8601.c in Sources */ = {isa = PBXBuildFile; fileRef = 3738CE041BEAB09A00938057 /* bson-iso8601.c */; };
+		3738CEA31BEAB61F00938057 /* bson-iter.c in Sources */ = {isa = PBXBuildFile; fileRef = 3738CE051BEAB09A00938057 /* bson-iter.c */; };
+		3738CEA41BEAB61F00938057 /* bson-iter.h in Headers */ = {isa = PBXBuildFile; fileRef = 3738CE061BEAB09A00938057 /* bson-iter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3738CEA51BEAB61F00938057 /* bson-json.c in Sources */ = {isa = PBXBuildFile; fileRef = 3738CE071BEAB09A00938057 /* bson-json.c */; };
+		3738CEA61BEAB61F00938057 /* bson-json.h in Headers */ = {isa = PBXBuildFile; fileRef = 3738CE081BEAB09A00938057 /* bson-json.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3738CEA71BEAB61F00938057 /* bson-keys.c in Sources */ = {isa = PBXBuildFile; fileRef = 3738CE091BEAB09A00938057 /* bson-keys.c */; };
+		3738CEA81BEAB61F00938057 /* bson-keys.h in Headers */ = {isa = PBXBuildFile; fileRef = 3738CE0A1BEAB09A00938057 /* bson-keys.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3738CEA91BEAB61F00938057 /* bson-macros.h in Headers */ = {isa = PBXBuildFile; fileRef = 3738CE0B1BEAB09A00938057 /* bson-macros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3738CEAA1BEAB61F00938057 /* bson-md5.c in Sources */ = {isa = PBXBuildFile; fileRef = 3738CE0C1BEAB09A00938057 /* bson-md5.c */; };
+		3738CEAB1BEAB61F00938057 /* bson-md5.h in Headers */ = {isa = PBXBuildFile; fileRef = 3738CE0D1BEAB09A00938057 /* bson-md5.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3738CEAC1BEAB61F00938057 /* bson-memory.c in Sources */ = {isa = PBXBuildFile; fileRef = 3738CE0E1BEAB09A00938057 /* bson-memory.c */; };
+		3738CEAD1BEAB61F00938057 /* bson-memory.h in Headers */ = {isa = PBXBuildFile; fileRef = 3738CE0F1BEAB09A00938057 /* bson-memory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3738CEAE1BEAB61F00938057 /* bson-oid.c in Sources */ = {isa = PBXBuildFile; fileRef = 3738CE101BEAB09A00938057 /* bson-oid.c */; };
+		3738CEAF1BEAB61F00938057 /* bson-oid.h in Headers */ = {isa = PBXBuildFile; fileRef = 3738CE111BEAB09A00938057 /* bson-oid.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3738CEB01BEAB61F00938057 /* bson-private.h in Headers */ = {isa = PBXBuildFile; fileRef = 3738CE121BEAB09A00938057 /* bson-private.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3738CEB11BEAB61F00938057 /* bson-reader.c in Sources */ = {isa = PBXBuildFile; fileRef = 3738CE131BEAB09A00938057 /* bson-reader.c */; };
+		3738CEB21BEAB61F00938057 /* bson-reader.h in Headers */ = {isa = PBXBuildFile; fileRef = 3738CE141BEAB09A00938057 /* bson-reader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3738CEB31BEAB61F00938057 /* bson-stdint-win32.h in Headers */ = {isa = PBXBuildFile; fileRef = 3738CE151BEAB09A00938057 /* bson-stdint-win32.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3738CEB41BEAB61F00938057 /* bson-stdint.h in Headers */ = {isa = PBXBuildFile; fileRef = 3738CE161BEAB09A00938057 /* bson-stdint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3738CEB51BEAB61F00938057 /* bson-string.c in Sources */ = {isa = PBXBuildFile; fileRef = 3738CE171BEAB09A00938057 /* bson-string.c */; };
+		3738CEB61BEAB61F00938057 /* bson-string.h in Headers */ = {isa = PBXBuildFile; fileRef = 3738CE181BEAB09A00938057 /* bson-string.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3738CEB71BEAB61F00938057 /* bson-thread-private.h in Headers */ = {isa = PBXBuildFile; fileRef = 3738CE191BEAB09A00938057 /* bson-thread-private.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3738CEB81BEAB61F00938057 /* bson-timegm-private.h in Headers */ = {isa = PBXBuildFile; fileRef = 3738CE1A1BEAB09A00938057 /* bson-timegm-private.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3738CEB91BEAB61F00938057 /* bson-timegm.c in Sources */ = {isa = PBXBuildFile; fileRef = 3738CE1B1BEAB09A00938057 /* bson-timegm.c */; };
+		3738CEBA1BEAB61F00938057 /* bson-types.h in Headers */ = {isa = PBXBuildFile; fileRef = 3738CE1C1BEAB09A00938057 /* bson-types.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3738CEBB1BEAB61F00938057 /* bson-utf8.c in Sources */ = {isa = PBXBuildFile; fileRef = 3738CE1D1BEAB09A00938057 /* bson-utf8.c */; };
+		3738CEBC1BEAB61F00938057 /* bson-utf8.h in Headers */ = {isa = PBXBuildFile; fileRef = 3738CE1E1BEAB09A00938057 /* bson-utf8.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3738CEBD1BEAB61F00938057 /* bson-value.c in Sources */ = {isa = PBXBuildFile; fileRef = 3738CE1F1BEAB09A00938057 /* bson-value.c */; };
+		3738CEBE1BEAB61F00938057 /* bson-value.h in Headers */ = {isa = PBXBuildFile; fileRef = 3738CE201BEAB09A00938057 /* bson-value.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3738CEBF1BEAB61F00938057 /* bson-version.c in Sources */ = {isa = PBXBuildFile; fileRef = 3738CE211BEAB09A00938057 /* bson-version.c */; };
+		3738CEC01BEAB61F00938057 /* bson-version.h in Headers */ = {isa = PBXBuildFile; fileRef = 3738CE221BEAB09A00938057 /* bson-version.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3738CEC11BEAB61F00938057 /* bson-writer.c in Sources */ = {isa = PBXBuildFile; fileRef = 3738CE231BEAB09A00938057 /* bson-writer.c */; };
+		3738CEC21BEAB61F00938057 /* bson-writer.h in Headers */ = {isa = PBXBuildFile; fileRef = 3738CE241BEAB09A00938057 /* bson-writer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3738CEC31BEAB61F00938057 /* bson.c in Sources */ = {isa = PBXBuildFile; fileRef = 3738CE251BEAB09A00938057 /* bson.c */; };
+		3738CEC41BEAB61F00938057 /* bson.h in Headers */ = {isa = PBXBuildFile; fileRef = 3738CE261BEAB09A00938057 /* bson.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3738CEC51BEAB62700938057 /* yajl.c in Sources */ = {isa = PBXBuildFile; fileRef = 3738CE281BEAB09B00938057 /* yajl.c */; };
+		3738CEC61BEAB62700938057 /* yajl_alloc.c in Sources */ = {isa = PBXBuildFile; fileRef = 3738CE291BEAB09B00938057 /* yajl_alloc.c */; };
+		3738CEC71BEAB62700938057 /* yajl_alloc.h in Headers */ = {isa = PBXBuildFile; fileRef = 3738CE2A1BEAB09B00938057 /* yajl_alloc.h */; };
+		3738CEC81BEAB62700938057 /* yajl_buf.c in Sources */ = {isa = PBXBuildFile; fileRef = 3738CE2B1BEAB09B00938057 /* yajl_buf.c */; };
+		3738CEC91BEAB62700938057 /* yajl_buf.h in Headers */ = {isa = PBXBuildFile; fileRef = 3738CE2C1BEAB09B00938057 /* yajl_buf.h */; };
+		3738CECA1BEAB62700938057 /* yajl_bytestack.h in Headers */ = {isa = PBXBuildFile; fileRef = 3738CE2D1BEAB09B00938057 /* yajl_bytestack.h */; };
+		3738CECB1BEAB62700938057 /* yajl_common.h in Headers */ = {isa = PBXBuildFile; fileRef = 3738CE2E1BEAB09B00938057 /* yajl_common.h */; };
+		3738CECC1BEAB62700938057 /* yajl_encode.c in Sources */ = {isa = PBXBuildFile; fileRef = 3738CE2F1BEAB09B00938057 /* yajl_encode.c */; };
+		3738CECD1BEAB62700938057 /* yajl_encode.h in Headers */ = {isa = PBXBuildFile; fileRef = 3738CE301BEAB09B00938057 /* yajl_encode.h */; };
+		3738CECE1BEAB62700938057 /* yajl_gen.c in Sources */ = {isa = PBXBuildFile; fileRef = 3738CE311BEAB09B00938057 /* yajl_gen.c */; };
+		3738CECF1BEAB62700938057 /* yajl_gen.h in Headers */ = {isa = PBXBuildFile; fileRef = 3738CE321BEAB09B00938057 /* yajl_gen.h */; };
+		3738CED01BEAB62700938057 /* yajl_lex.c in Sources */ = {isa = PBXBuildFile; fileRef = 3738CE331BEAB09B00938057 /* yajl_lex.c */; };
+		3738CED11BEAB62700938057 /* yajl_lex.h in Headers */ = {isa = PBXBuildFile; fileRef = 3738CE341BEAB09B00938057 /* yajl_lex.h */; };
+		3738CED21BEAB62700938057 /* yajl_parse.h in Headers */ = {isa = PBXBuildFile; fileRef = 3738CE351BEAB09B00938057 /* yajl_parse.h */; };
+		3738CED31BEAB62700938057 /* yajl_parser.c in Sources */ = {isa = PBXBuildFile; fileRef = 3738CE361BEAB09B00938057 /* yajl_parser.c */; };
+		3738CED41BEAB62700938057 /* yajl_parser.h in Headers */ = {isa = PBXBuildFile; fileRef = 3738CE371BEAB09B00938057 /* yajl_parser.h */; };
+		3738CED51BEAB62700938057 /* yajl_tree.c in Sources */ = {isa = PBXBuildFile; fileRef = 3738CE381BEAB09B00938057 /* yajl_tree.c */; };
+		3738CED61BEAB62700938057 /* yajl_tree.h in Headers */ = {isa = PBXBuildFile; fileRef = 3738CE391BEAB09B00938057 /* yajl_tree.h */; };
+		3738CED71BEAB62700938057 /* yajl_version.c in Sources */ = {isa = PBXBuildFile; fileRef = 3738CE3A1BEAB09B00938057 /* yajl_version.c */; };
+		3738CED81BEAB62700938057 /* yajl_version.h in Headers */ = {isa = PBXBuildFile; fileRef = 3738CE3B1BEAB09B00938057 /* yajl_version.h */; };
+		3738CEE21BEAB7B800938057 /* bson-osx.h in Headers */ = {isa = PBXBuildFile; fileRef = 3738CEE11BEAB7B800938057 /* bson-osx.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3738CEE71BEAB92200938057 /* b64_ntop.h in Headers */ = {isa = PBXBuildFile; fileRef = 3738CDF31BEAB09A00938057 /* b64_ntop.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3738CEE81BEAB92200938057 /* b64_pton.h in Headers */ = {isa = PBXBuildFile; fileRef = 3738CDF41BEAB09A00938057 /* b64_pton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3738CEE91BEAB92200938057 /* bcon.c in Sources */ = {isa = PBXBuildFile; fileRef = 3738CDF51BEAB09A00938057 /* bcon.c */; };
+		3738CEEA1BEAB92200938057 /* bcon.h in Headers */ = {isa = PBXBuildFile; fileRef = 3738CDF61BEAB09A00938057 /* bcon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3738CEEB1BEAB92200938057 /* bson-atomic.c in Sources */ = {isa = PBXBuildFile; fileRef = 3738CDF71BEAB09A00938057 /* bson-atomic.c */; };
+		3738CEEC1BEAB92200938057 /* bson-atomic.h in Headers */ = {isa = PBXBuildFile; fileRef = 3738CDF81BEAB09A00938057 /* bson-atomic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3738CEED1BEAB92200938057 /* bson-clock.c in Sources */ = {isa = PBXBuildFile; fileRef = 3738CDF91BEAB09A00938057 /* bson-clock.c */; };
+		3738CEEE1BEAB92200938057 /* bson-clock.h in Headers */ = {isa = PBXBuildFile; fileRef = 3738CDFA1BEAB09A00938057 /* bson-clock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3738CEEF1BEAB92200938057 /* bson-compat.h in Headers */ = {isa = PBXBuildFile; fileRef = 3738CDFB1BEAB09A00938057 /* bson-compat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3738CEF01BEAB92200938057 /* bson-config.h in Headers */ = {isa = PBXBuildFile; fileRef = 3738CDFC1BEAB09A00938057 /* bson-config.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3738CEF11BEAB92200938057 /* bson-context-private.h in Headers */ = {isa = PBXBuildFile; fileRef = 3738CDFD1BEAB09A00938057 /* bson-context-private.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3738CEF21BEAB92200938057 /* bson-context.c in Sources */ = {isa = PBXBuildFile; fileRef = 3738CDFE1BEAB09A00938057 /* bson-context.c */; };
+		3738CEF31BEAB92200938057 /* bson-context.h in Headers */ = {isa = PBXBuildFile; fileRef = 3738CDFF1BEAB09A00938057 /* bson-context.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3738CEF41BEAB92200938057 /* bson-endian.h in Headers */ = {isa = PBXBuildFile; fileRef = 3738CE001BEAB09A00938057 /* bson-endian.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3738CEF51BEAB92200938057 /* bson-error.c in Sources */ = {isa = PBXBuildFile; fileRef = 3738CE011BEAB09A00938057 /* bson-error.c */; };
+		3738CEF61BEAB92200938057 /* bson-error.h in Headers */ = {isa = PBXBuildFile; fileRef = 3738CE021BEAB09A00938057 /* bson-error.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3738CEF71BEAB92200938057 /* bson-iso8601-private.h in Headers */ = {isa = PBXBuildFile; fileRef = 3738CE031BEAB09A00938057 /* bson-iso8601-private.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3738CEF81BEAB92200938057 /* bson-iso8601.c in Sources */ = {isa = PBXBuildFile; fileRef = 3738CE041BEAB09A00938057 /* bson-iso8601.c */; };
+		3738CEF91BEAB92200938057 /* bson-iter.c in Sources */ = {isa = PBXBuildFile; fileRef = 3738CE051BEAB09A00938057 /* bson-iter.c */; };
+		3738CEFA1BEAB92200938057 /* bson-iter.h in Headers */ = {isa = PBXBuildFile; fileRef = 3738CE061BEAB09A00938057 /* bson-iter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3738CEFB1BEAB92200938057 /* bson-json.c in Sources */ = {isa = PBXBuildFile; fileRef = 3738CE071BEAB09A00938057 /* bson-json.c */; };
+		3738CEFC1BEAB92200938057 /* bson-json.h in Headers */ = {isa = PBXBuildFile; fileRef = 3738CE081BEAB09A00938057 /* bson-json.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3738CEFD1BEAB92200938057 /* bson-keys.c in Sources */ = {isa = PBXBuildFile; fileRef = 3738CE091BEAB09A00938057 /* bson-keys.c */; };
+		3738CEFE1BEAB92200938057 /* bson-keys.h in Headers */ = {isa = PBXBuildFile; fileRef = 3738CE0A1BEAB09A00938057 /* bson-keys.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3738CEFF1BEAB92200938057 /* bson-macros.h in Headers */ = {isa = PBXBuildFile; fileRef = 3738CE0B1BEAB09A00938057 /* bson-macros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3738CF001BEAB92200938057 /* bson-md5.c in Sources */ = {isa = PBXBuildFile; fileRef = 3738CE0C1BEAB09A00938057 /* bson-md5.c */; };
+		3738CF011BEAB92200938057 /* bson-md5.h in Headers */ = {isa = PBXBuildFile; fileRef = 3738CE0D1BEAB09A00938057 /* bson-md5.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3738CF021BEAB92200938057 /* bson-memory.c in Sources */ = {isa = PBXBuildFile; fileRef = 3738CE0E1BEAB09A00938057 /* bson-memory.c */; };
+		3738CF031BEAB92200938057 /* bson-memory.h in Headers */ = {isa = PBXBuildFile; fileRef = 3738CE0F1BEAB09A00938057 /* bson-memory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3738CF041BEAB92200938057 /* bson-oid.c in Sources */ = {isa = PBXBuildFile; fileRef = 3738CE101BEAB09A00938057 /* bson-oid.c */; };
+		3738CF051BEAB92200938057 /* bson-oid.h in Headers */ = {isa = PBXBuildFile; fileRef = 3738CE111BEAB09A00938057 /* bson-oid.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3738CF061BEAB92200938057 /* bson-private.h in Headers */ = {isa = PBXBuildFile; fileRef = 3738CE121BEAB09A00938057 /* bson-private.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3738CF071BEAB92200938057 /* bson-reader.c in Sources */ = {isa = PBXBuildFile; fileRef = 3738CE131BEAB09A00938057 /* bson-reader.c */; };
+		3738CF081BEAB92200938057 /* bson-reader.h in Headers */ = {isa = PBXBuildFile; fileRef = 3738CE141BEAB09A00938057 /* bson-reader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3738CF091BEAB92200938057 /* bson-stdint-win32.h in Headers */ = {isa = PBXBuildFile; fileRef = 3738CE151BEAB09A00938057 /* bson-stdint-win32.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3738CF0A1BEAB92200938057 /* bson-stdint.h in Headers */ = {isa = PBXBuildFile; fileRef = 3738CE161BEAB09A00938057 /* bson-stdint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3738CF0B1BEAB92200938057 /* bson-string.c in Sources */ = {isa = PBXBuildFile; fileRef = 3738CE171BEAB09A00938057 /* bson-string.c */; };
+		3738CF0C1BEAB92200938057 /* bson-string.h in Headers */ = {isa = PBXBuildFile; fileRef = 3738CE181BEAB09A00938057 /* bson-string.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3738CF0D1BEAB92200938057 /* bson-thread-private.h in Headers */ = {isa = PBXBuildFile; fileRef = 3738CE191BEAB09A00938057 /* bson-thread-private.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3738CF0E1BEAB92200938057 /* bson-timegm-private.h in Headers */ = {isa = PBXBuildFile; fileRef = 3738CE1A1BEAB09A00938057 /* bson-timegm-private.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3738CF0F1BEAB92200938057 /* bson-timegm.c in Sources */ = {isa = PBXBuildFile; fileRef = 3738CE1B1BEAB09A00938057 /* bson-timegm.c */; };
+		3738CF101BEAB92200938057 /* bson-types.h in Headers */ = {isa = PBXBuildFile; fileRef = 3738CE1C1BEAB09A00938057 /* bson-types.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3738CF111BEAB92200938057 /* bson-utf8.c in Sources */ = {isa = PBXBuildFile; fileRef = 3738CE1D1BEAB09A00938057 /* bson-utf8.c */; };
+		3738CF121BEAB92200938057 /* bson-utf8.h in Headers */ = {isa = PBXBuildFile; fileRef = 3738CE1E1BEAB09A00938057 /* bson-utf8.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3738CF131BEAB92200938057 /* bson-value.c in Sources */ = {isa = PBXBuildFile; fileRef = 3738CE1F1BEAB09A00938057 /* bson-value.c */; };
+		3738CF141BEAB92200938057 /* bson-value.h in Headers */ = {isa = PBXBuildFile; fileRef = 3738CE201BEAB09A00938057 /* bson-value.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3738CF151BEAB92200938057 /* bson-version.c in Sources */ = {isa = PBXBuildFile; fileRef = 3738CE211BEAB09A00938057 /* bson-version.c */; };
+		3738CF161BEAB92200938057 /* bson-version.h in Headers */ = {isa = PBXBuildFile; fileRef = 3738CE221BEAB09A00938057 /* bson-version.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3738CF171BEAB92200938057 /* bson-writer.c in Sources */ = {isa = PBXBuildFile; fileRef = 3738CE231BEAB09A00938057 /* bson-writer.c */; };
+		3738CF181BEAB92200938057 /* bson-writer.h in Headers */ = {isa = PBXBuildFile; fileRef = 3738CE241BEAB09A00938057 /* bson-writer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3738CF191BEAB92200938057 /* bson.c in Sources */ = {isa = PBXBuildFile; fileRef = 3738CE251BEAB09A00938057 /* bson.c */; };
+		3738CF1A1BEAB92200938057 /* bson.h in Headers */ = {isa = PBXBuildFile; fileRef = 3738CE261BEAB09A00938057 /* bson.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3738CF1B1BEAB92800938057 /* yajl.c in Sources */ = {isa = PBXBuildFile; fileRef = 3738CE281BEAB09B00938057 /* yajl.c */; };
+		3738CF1C1BEAB92800938057 /* yajl_alloc.c in Sources */ = {isa = PBXBuildFile; fileRef = 3738CE291BEAB09B00938057 /* yajl_alloc.c */; };
+		3738CF1D1BEAB92800938057 /* yajl_alloc.h in Headers */ = {isa = PBXBuildFile; fileRef = 3738CE2A1BEAB09B00938057 /* yajl_alloc.h */; };
+		3738CF1E1BEAB92800938057 /* yajl_buf.c in Sources */ = {isa = PBXBuildFile; fileRef = 3738CE2B1BEAB09B00938057 /* yajl_buf.c */; };
+		3738CF1F1BEAB92800938057 /* yajl_buf.h in Headers */ = {isa = PBXBuildFile; fileRef = 3738CE2C1BEAB09B00938057 /* yajl_buf.h */; };
+		3738CF201BEAB92800938057 /* yajl_bytestack.h in Headers */ = {isa = PBXBuildFile; fileRef = 3738CE2D1BEAB09B00938057 /* yajl_bytestack.h */; };
+		3738CF211BEAB92800938057 /* yajl_common.h in Headers */ = {isa = PBXBuildFile; fileRef = 3738CE2E1BEAB09B00938057 /* yajl_common.h */; };
+		3738CF221BEAB92800938057 /* yajl_encode.c in Sources */ = {isa = PBXBuildFile; fileRef = 3738CE2F1BEAB09B00938057 /* yajl_encode.c */; };
+		3738CF231BEAB92800938057 /* yajl_encode.h in Headers */ = {isa = PBXBuildFile; fileRef = 3738CE301BEAB09B00938057 /* yajl_encode.h */; };
+		3738CF241BEAB92800938057 /* yajl_gen.c in Sources */ = {isa = PBXBuildFile; fileRef = 3738CE311BEAB09B00938057 /* yajl_gen.c */; };
+		3738CF251BEAB92800938057 /* yajl_gen.h in Headers */ = {isa = PBXBuildFile; fileRef = 3738CE321BEAB09B00938057 /* yajl_gen.h */; };
+		3738CF261BEAB92800938057 /* yajl_lex.c in Sources */ = {isa = PBXBuildFile; fileRef = 3738CE331BEAB09B00938057 /* yajl_lex.c */; };
+		3738CF271BEAB92800938057 /* yajl_lex.h in Headers */ = {isa = PBXBuildFile; fileRef = 3738CE341BEAB09B00938057 /* yajl_lex.h */; };
+		3738CF281BEAB92800938057 /* yajl_parse.h in Headers */ = {isa = PBXBuildFile; fileRef = 3738CE351BEAB09B00938057 /* yajl_parse.h */; };
+		3738CF291BEAB92800938057 /* yajl_parser.c in Sources */ = {isa = PBXBuildFile; fileRef = 3738CE361BEAB09B00938057 /* yajl_parser.c */; };
+		3738CF2A1BEAB92800938057 /* yajl_parser.h in Headers */ = {isa = PBXBuildFile; fileRef = 3738CE371BEAB09B00938057 /* yajl_parser.h */; };
+		3738CF2B1BEAB92800938057 /* yajl_tree.c in Sources */ = {isa = PBXBuildFile; fileRef = 3738CE381BEAB09B00938057 /* yajl_tree.c */; };
+		3738CF2C1BEAB92800938057 /* yajl_tree.h in Headers */ = {isa = PBXBuildFile; fileRef = 3738CE391BEAB09B00938057 /* yajl_tree.h */; };
+		3738CF2D1BEAB92800938057 /* yajl_version.c in Sources */ = {isa = PBXBuildFile; fileRef = 3738CE3A1BEAB09B00938057 /* yajl_version.c */; };
+		3738CF2E1BEAB92800938057 /* yajl_version.h in Headers */ = {isa = PBXBuildFile; fileRef = 3738CE3B1BEAB09B00938057 /* yajl_version.h */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
-		3738CD331BEA9BA800938057 /* libbson.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libbson.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		3738CDF31BEAB09A00938057 /* b64_ntop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b64_ntop.h; sourceTree = "<group>"; };
+		3738CDF41BEAB09A00938057 /* b64_pton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b64_pton.h; sourceTree = "<group>"; };
+		3738CDF51BEAB09A00938057 /* bcon.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bcon.c; sourceTree = "<group>"; };
+		3738CDF61BEAB09A00938057 /* bcon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bcon.h; sourceTree = "<group>"; };
+		3738CDF71BEAB09A00938057 /* bson-atomic.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "bson-atomic.c"; sourceTree = "<group>"; };
+		3738CDF81BEAB09A00938057 /* bson-atomic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "bson-atomic.h"; sourceTree = "<group>"; };
+		3738CDF91BEAB09A00938057 /* bson-clock.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "bson-clock.c"; sourceTree = "<group>"; };
+		3738CDFA1BEAB09A00938057 /* bson-clock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "bson-clock.h"; sourceTree = "<group>"; };
+		3738CDFB1BEAB09A00938057 /* bson-compat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "bson-compat.h"; sourceTree = "<group>"; };
+		3738CDFC1BEAB09A00938057 /* bson-config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "bson-config.h"; sourceTree = "<group>"; };
+		3738CDFD1BEAB09A00938057 /* bson-context-private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "bson-context-private.h"; sourceTree = "<group>"; };
+		3738CDFE1BEAB09A00938057 /* bson-context.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "bson-context.c"; sourceTree = "<group>"; };
+		3738CDFF1BEAB09A00938057 /* bson-context.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "bson-context.h"; sourceTree = "<group>"; };
+		3738CE001BEAB09A00938057 /* bson-endian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "bson-endian.h"; sourceTree = "<group>"; };
+		3738CE011BEAB09A00938057 /* bson-error.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "bson-error.c"; sourceTree = "<group>"; };
+		3738CE021BEAB09A00938057 /* bson-error.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "bson-error.h"; sourceTree = "<group>"; };
+		3738CE031BEAB09A00938057 /* bson-iso8601-private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "bson-iso8601-private.h"; sourceTree = "<group>"; };
+		3738CE041BEAB09A00938057 /* bson-iso8601.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "bson-iso8601.c"; sourceTree = "<group>"; };
+		3738CE051BEAB09A00938057 /* bson-iter.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "bson-iter.c"; sourceTree = "<group>"; };
+		3738CE061BEAB09A00938057 /* bson-iter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "bson-iter.h"; sourceTree = "<group>"; };
+		3738CE071BEAB09A00938057 /* bson-json.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "bson-json.c"; sourceTree = "<group>"; };
+		3738CE081BEAB09A00938057 /* bson-json.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "bson-json.h"; sourceTree = "<group>"; };
+		3738CE091BEAB09A00938057 /* bson-keys.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "bson-keys.c"; sourceTree = "<group>"; };
+		3738CE0A1BEAB09A00938057 /* bson-keys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "bson-keys.h"; sourceTree = "<group>"; };
+		3738CE0B1BEAB09A00938057 /* bson-macros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "bson-macros.h"; sourceTree = "<group>"; };
+		3738CE0C1BEAB09A00938057 /* bson-md5.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "bson-md5.c"; sourceTree = "<group>"; };
+		3738CE0D1BEAB09A00938057 /* bson-md5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "bson-md5.h"; sourceTree = "<group>"; };
+		3738CE0E1BEAB09A00938057 /* bson-memory.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "bson-memory.c"; sourceTree = "<group>"; };
+		3738CE0F1BEAB09A00938057 /* bson-memory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "bson-memory.h"; sourceTree = "<group>"; };
+		3738CE101BEAB09A00938057 /* bson-oid.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "bson-oid.c"; sourceTree = "<group>"; };
+		3738CE111BEAB09A00938057 /* bson-oid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "bson-oid.h"; sourceTree = "<group>"; };
+		3738CE121BEAB09A00938057 /* bson-private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "bson-private.h"; sourceTree = "<group>"; };
+		3738CE131BEAB09A00938057 /* bson-reader.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "bson-reader.c"; sourceTree = "<group>"; };
+		3738CE141BEAB09A00938057 /* bson-reader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "bson-reader.h"; sourceTree = "<group>"; };
+		3738CE151BEAB09A00938057 /* bson-stdint-win32.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "bson-stdint-win32.h"; sourceTree = "<group>"; };
+		3738CE161BEAB09A00938057 /* bson-stdint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "bson-stdint.h"; sourceTree = "<group>"; };
+		3738CE171BEAB09A00938057 /* bson-string.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "bson-string.c"; sourceTree = "<group>"; };
+		3738CE181BEAB09A00938057 /* bson-string.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "bson-string.h"; sourceTree = "<group>"; };
+		3738CE191BEAB09A00938057 /* bson-thread-private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "bson-thread-private.h"; sourceTree = "<group>"; };
+		3738CE1A1BEAB09A00938057 /* bson-timegm-private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "bson-timegm-private.h"; sourceTree = "<group>"; };
+		3738CE1B1BEAB09A00938057 /* bson-timegm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "bson-timegm.c"; sourceTree = "<group>"; };
+		3738CE1C1BEAB09A00938057 /* bson-types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "bson-types.h"; sourceTree = "<group>"; };
+		3738CE1D1BEAB09A00938057 /* bson-utf8.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "bson-utf8.c"; sourceTree = "<group>"; };
+		3738CE1E1BEAB09A00938057 /* bson-utf8.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "bson-utf8.h"; sourceTree = "<group>"; };
+		3738CE1F1BEAB09A00938057 /* bson-value.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "bson-value.c"; sourceTree = "<group>"; };
+		3738CE201BEAB09A00938057 /* bson-value.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "bson-value.h"; sourceTree = "<group>"; };
+		3738CE211BEAB09A00938057 /* bson-version.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "bson-version.c"; sourceTree = "<group>"; };
+		3738CE221BEAB09A00938057 /* bson-version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "bson-version.h"; sourceTree = "<group>"; };
+		3738CE231BEAB09A00938057 /* bson-writer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "bson-writer.c"; sourceTree = "<group>"; };
+		3738CE241BEAB09A00938057 /* bson-writer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "bson-writer.h"; sourceTree = "<group>"; };
+		3738CE251BEAB09A00938057 /* bson.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bson.c; sourceTree = "<group>"; };
+		3738CE261BEAB09A00938057 /* bson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bson.h; sourceTree = "<group>"; };
+		3738CE281BEAB09B00938057 /* yajl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = yajl.c; sourceTree = "<group>"; };
+		3738CE291BEAB09B00938057 /* yajl_alloc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = yajl_alloc.c; sourceTree = "<group>"; };
+		3738CE2A1BEAB09B00938057 /* yajl_alloc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yajl_alloc.h; sourceTree = "<group>"; };
+		3738CE2B1BEAB09B00938057 /* yajl_buf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = yajl_buf.c; sourceTree = "<group>"; };
+		3738CE2C1BEAB09B00938057 /* yajl_buf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yajl_buf.h; sourceTree = "<group>"; };
+		3738CE2D1BEAB09B00938057 /* yajl_bytestack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yajl_bytestack.h; sourceTree = "<group>"; };
+		3738CE2E1BEAB09B00938057 /* yajl_common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yajl_common.h; sourceTree = "<group>"; };
+		3738CE2F1BEAB09B00938057 /* yajl_encode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = yajl_encode.c; sourceTree = "<group>"; };
+		3738CE301BEAB09B00938057 /* yajl_encode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yajl_encode.h; sourceTree = "<group>"; };
+		3738CE311BEAB09B00938057 /* yajl_gen.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = yajl_gen.c; sourceTree = "<group>"; };
+		3738CE321BEAB09B00938057 /* yajl_gen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yajl_gen.h; sourceTree = "<group>"; };
+		3738CE331BEAB09B00938057 /* yajl_lex.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = yajl_lex.c; sourceTree = "<group>"; };
+		3738CE341BEAB09B00938057 /* yajl_lex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yajl_lex.h; sourceTree = "<group>"; };
+		3738CE351BEAB09B00938057 /* yajl_parse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yajl_parse.h; sourceTree = "<group>"; };
+		3738CE361BEAB09B00938057 /* yajl_parser.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = yajl_parser.c; sourceTree = "<group>"; };
+		3738CE371BEAB09B00938057 /* yajl_parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yajl_parser.h; sourceTree = "<group>"; };
+		3738CE381BEAB09B00938057 /* yajl_tree.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = yajl_tree.c; sourceTree = "<group>"; };
+		3738CE391BEAB09B00938057 /* yajl_tree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yajl_tree.h; sourceTree = "<group>"; };
+		3738CE3A1BEAB09B00938057 /* yajl_version.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = yajl_version.c; sourceTree = "<group>"; };
+		3738CE3B1BEAB09B00938057 /* yajl_version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yajl_version.h; sourceTree = "<group>"; };
+		3738CE891BEAB61700938057 /* bson.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = bson.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3738CE8B1BEAB61700938057 /* bson-ios.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bson-ios.h"; sourceTree = "<group>"; };
+		3738CE8D1BEAB61700938057 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3738CEDF1BEAB7B800938057 /* bson.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = bson.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3738CEE11BEAB7B800938057 /* bson-osx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bson-osx.h"; sourceTree = "<group>"; };
+		3738CEE31BEAB7B800938057 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3738CD301BEA9BA800938057 /* Frameworks */ = {
+		3738CE851BEAB61700938057 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3738CEDB1BEAB7B800938057 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -24,6 +257,10 @@
 		3738CD2A1BEA9BA800938057 = {
 			isa = PBXGroup;
 			children = (
+				3738CDF21BEAB09A00938057 /* bson */,
+				3738CE271BEAB09A00938057 /* yajl */,
+				3738CE8A1BEAB61700938057 /* bson-ios */,
+				3738CEE01BEAB7B800938057 /* bson-osx */,
 				3738CD341BEA9BA800938057 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -31,40 +268,261 @@
 		3738CD341BEA9BA800938057 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3738CD331BEA9BA800938057 /* libbson.dylib */,
+				3738CE891BEAB61700938057 /* bson.framework */,
+				3738CEDF1BEAB7B800938057 /* bson.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		3738CDF21BEAB09A00938057 /* bson */ = {
+			isa = PBXGroup;
+			children = (
+				3738CDF31BEAB09A00938057 /* b64_ntop.h */,
+				3738CDF41BEAB09A00938057 /* b64_pton.h */,
+				3738CDF51BEAB09A00938057 /* bcon.c */,
+				3738CDF61BEAB09A00938057 /* bcon.h */,
+				3738CDF71BEAB09A00938057 /* bson-atomic.c */,
+				3738CDF81BEAB09A00938057 /* bson-atomic.h */,
+				3738CDF91BEAB09A00938057 /* bson-clock.c */,
+				3738CDFA1BEAB09A00938057 /* bson-clock.h */,
+				3738CDFB1BEAB09A00938057 /* bson-compat.h */,
+				3738CDFC1BEAB09A00938057 /* bson-config.h */,
+				3738CDFD1BEAB09A00938057 /* bson-context-private.h */,
+				3738CDFE1BEAB09A00938057 /* bson-context.c */,
+				3738CDFF1BEAB09A00938057 /* bson-context.h */,
+				3738CE001BEAB09A00938057 /* bson-endian.h */,
+				3738CE011BEAB09A00938057 /* bson-error.c */,
+				3738CE021BEAB09A00938057 /* bson-error.h */,
+				3738CE031BEAB09A00938057 /* bson-iso8601-private.h */,
+				3738CE041BEAB09A00938057 /* bson-iso8601.c */,
+				3738CE051BEAB09A00938057 /* bson-iter.c */,
+				3738CE061BEAB09A00938057 /* bson-iter.h */,
+				3738CE071BEAB09A00938057 /* bson-json.c */,
+				3738CE081BEAB09A00938057 /* bson-json.h */,
+				3738CE091BEAB09A00938057 /* bson-keys.c */,
+				3738CE0A1BEAB09A00938057 /* bson-keys.h */,
+				3738CE0B1BEAB09A00938057 /* bson-macros.h */,
+				3738CE0C1BEAB09A00938057 /* bson-md5.c */,
+				3738CE0D1BEAB09A00938057 /* bson-md5.h */,
+				3738CE0E1BEAB09A00938057 /* bson-memory.c */,
+				3738CE0F1BEAB09A00938057 /* bson-memory.h */,
+				3738CE101BEAB09A00938057 /* bson-oid.c */,
+				3738CE111BEAB09A00938057 /* bson-oid.h */,
+				3738CE121BEAB09A00938057 /* bson-private.h */,
+				3738CE131BEAB09A00938057 /* bson-reader.c */,
+				3738CE141BEAB09A00938057 /* bson-reader.h */,
+				3738CE151BEAB09A00938057 /* bson-stdint-win32.h */,
+				3738CE161BEAB09A00938057 /* bson-stdint.h */,
+				3738CE171BEAB09A00938057 /* bson-string.c */,
+				3738CE181BEAB09A00938057 /* bson-string.h */,
+				3738CE191BEAB09A00938057 /* bson-thread-private.h */,
+				3738CE1A1BEAB09A00938057 /* bson-timegm-private.h */,
+				3738CE1B1BEAB09A00938057 /* bson-timegm.c */,
+				3738CE1C1BEAB09A00938057 /* bson-types.h */,
+				3738CE1D1BEAB09A00938057 /* bson-utf8.c */,
+				3738CE1E1BEAB09A00938057 /* bson-utf8.h */,
+				3738CE1F1BEAB09A00938057 /* bson-value.c */,
+				3738CE201BEAB09A00938057 /* bson-value.h */,
+				3738CE211BEAB09A00938057 /* bson-version.c */,
+				3738CE221BEAB09A00938057 /* bson-version.h */,
+				3738CE231BEAB09A00938057 /* bson-writer.c */,
+				3738CE241BEAB09A00938057 /* bson-writer.h */,
+				3738CE251BEAB09A00938057 /* bson.c */,
+				3738CE261BEAB09A00938057 /* bson.h */,
+			);
+			name = bson;
+			path = bson/bson;
+			sourceTree = "<group>";
+		};
+		3738CE271BEAB09A00938057 /* yajl */ = {
+			isa = PBXGroup;
+			children = (
+				3738CE281BEAB09B00938057 /* yajl.c */,
+				3738CE291BEAB09B00938057 /* yajl_alloc.c */,
+				3738CE2A1BEAB09B00938057 /* yajl_alloc.h */,
+				3738CE2B1BEAB09B00938057 /* yajl_buf.c */,
+				3738CE2C1BEAB09B00938057 /* yajl_buf.h */,
+				3738CE2D1BEAB09B00938057 /* yajl_bytestack.h */,
+				3738CE2E1BEAB09B00938057 /* yajl_common.h */,
+				3738CE2F1BEAB09B00938057 /* yajl_encode.c */,
+				3738CE301BEAB09B00938057 /* yajl_encode.h */,
+				3738CE311BEAB09B00938057 /* yajl_gen.c */,
+				3738CE321BEAB09B00938057 /* yajl_gen.h */,
+				3738CE331BEAB09B00938057 /* yajl_lex.c */,
+				3738CE341BEAB09B00938057 /* yajl_lex.h */,
+				3738CE351BEAB09B00938057 /* yajl_parse.h */,
+				3738CE361BEAB09B00938057 /* yajl_parser.c */,
+				3738CE371BEAB09B00938057 /* yajl_parser.h */,
+				3738CE381BEAB09B00938057 /* yajl_tree.c */,
+				3738CE391BEAB09B00938057 /* yajl_tree.h */,
+				3738CE3A1BEAB09B00938057 /* yajl_version.c */,
+				3738CE3B1BEAB09B00938057 /* yajl_version.h */,
+			);
+			name = yajl;
+			path = bson/yajl;
+			sourceTree = "<group>";
+		};
+		3738CE8A1BEAB61700938057 /* bson-ios */ = {
+			isa = PBXGroup;
+			children = (
+				3738CE8B1BEAB61700938057 /* bson-ios.h */,
+				3738CE8D1BEAB61700938057 /* Info.plist */,
+			);
+			path = "bson-ios";
+			sourceTree = "<group>";
+		};
+		3738CEE01BEAB7B800938057 /* bson-osx */ = {
+			isa = PBXGroup;
+			children = (
+				3738CEE11BEAB7B800938057 /* bson-osx.h */,
+				3738CEE31BEAB7B800938057 /* Info.plist */,
+			);
+			path = "bson-osx";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3738CD311BEA9BA800938057 /* Headers */ = {
+		3738CE861BEAB61700938057 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3738CED21BEAB62700938057 /* yajl_parse.h in Headers */,
+				3738CE9A1BEAB61F00938057 /* bson-config.h in Headers */,
+				3738CEA91BEAB61F00938057 /* bson-macros.h in Headers */,
+				3738CEBA1BEAB61F00938057 /* bson-types.h in Headers */,
+				3738CE9B1BEAB61F00938057 /* bson-context-private.h in Headers */,
+				3738CEA41BEAB61F00938057 /* bson-iter.h in Headers */,
+				3738CE991BEAB61F00938057 /* bson-compat.h in Headers */,
+				3738CED41BEAB62700938057 /* yajl_parser.h in Headers */,
+				3738CEA01BEAB61F00938057 /* bson-error.h in Headers */,
+				3738CE911BEAB61F00938057 /* b64_ntop.h in Headers */,
+				3738CED11BEAB62700938057 /* yajl_lex.h in Headers */,
+				3738CEB31BEAB61F00938057 /* bson-stdint-win32.h in Headers */,
+				3738CEB41BEAB61F00938057 /* bson-stdint.h in Headers */,
+				3738CEBE1BEAB61F00938057 /* bson-value.h in Headers */,
+				3738CEB61BEAB61F00938057 /* bson-string.h in Headers */,
+				3738CE981BEAB61F00938057 /* bson-clock.h in Headers */,
+				3738CEA11BEAB61F00938057 /* bson-iso8601-private.h in Headers */,
+				3738CEC71BEAB62700938057 /* yajl_alloc.h in Headers */,
+				3738CE921BEAB61F00938057 /* b64_pton.h in Headers */,
+				3738CE9D1BEAB61F00938057 /* bson-context.h in Headers */,
+				3738CEC41BEAB61F00938057 /* bson.h in Headers */,
+				3738CECD1BEAB62700938057 /* yajl_encode.h in Headers */,
+				3738CEB81BEAB61F00938057 /* bson-timegm-private.h in Headers */,
+				3738CEB21BEAB61F00938057 /* bson-reader.h in Headers */,
+				3738CE961BEAB61F00938057 /* bson-atomic.h in Headers */,
+				3738CE9E1BEAB61F00938057 /* bson-endian.h in Headers */,
+				3738CED61BEAB62700938057 /* yajl_tree.h in Headers */,
+				3738CEB01BEAB61F00938057 /* bson-private.h in Headers */,
+				3738CEA81BEAB61F00938057 /* bson-keys.h in Headers */,
+				3738CE941BEAB61F00938057 /* bcon.h in Headers */,
+				3738CEA61BEAB61F00938057 /* bson-json.h in Headers */,
+				3738CEAD1BEAB61F00938057 /* bson-memory.h in Headers */,
+				3738CEC01BEAB61F00938057 /* bson-version.h in Headers */,
+				3738CED81BEAB62700938057 /* yajl_version.h in Headers */,
+				3738CECF1BEAB62700938057 /* yajl_gen.h in Headers */,
+				3738CEC91BEAB62700938057 /* yajl_buf.h in Headers */,
+				3738CEB71BEAB61F00938057 /* bson-thread-private.h in Headers */,
+				3738CE8C1BEAB61700938057 /* bson-ios.h in Headers */,
+				3738CEAB1BEAB61F00938057 /* bson-md5.h in Headers */,
+				3738CEAF1BEAB61F00938057 /* bson-oid.h in Headers */,
+				3738CECB1BEAB62700938057 /* yajl_common.h in Headers */,
+				3738CEBC1BEAB61F00938057 /* bson-utf8.h in Headers */,
+				3738CEC21BEAB61F00938057 /* bson-writer.h in Headers */,
+				3738CECA1BEAB62700938057 /* yajl_bytestack.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3738CEDC1BEAB7B800938057 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3738CF281BEAB92800938057 /* yajl_parse.h in Headers */,
+				3738CEF01BEAB92200938057 /* bson-config.h in Headers */,
+				3738CEFF1BEAB92200938057 /* bson-macros.h in Headers */,
+				3738CF101BEAB92200938057 /* bson-types.h in Headers */,
+				3738CEF11BEAB92200938057 /* bson-context-private.h in Headers */,
+				3738CEFA1BEAB92200938057 /* bson-iter.h in Headers */,
+				3738CEEF1BEAB92200938057 /* bson-compat.h in Headers */,
+				3738CF2A1BEAB92800938057 /* yajl_parser.h in Headers */,
+				3738CEF61BEAB92200938057 /* bson-error.h in Headers */,
+				3738CEE71BEAB92200938057 /* b64_ntop.h in Headers */,
+				3738CF271BEAB92800938057 /* yajl_lex.h in Headers */,
+				3738CF091BEAB92200938057 /* bson-stdint-win32.h in Headers */,
+				3738CF0A1BEAB92200938057 /* bson-stdint.h in Headers */,
+				3738CF141BEAB92200938057 /* bson-value.h in Headers */,
+				3738CF0C1BEAB92200938057 /* bson-string.h in Headers */,
+				3738CEEE1BEAB92200938057 /* bson-clock.h in Headers */,
+				3738CEF71BEAB92200938057 /* bson-iso8601-private.h in Headers */,
+				3738CF1D1BEAB92800938057 /* yajl_alloc.h in Headers */,
+				3738CEE81BEAB92200938057 /* b64_pton.h in Headers */,
+				3738CEF31BEAB92200938057 /* bson-context.h in Headers */,
+				3738CF1A1BEAB92200938057 /* bson.h in Headers */,
+				3738CF231BEAB92800938057 /* yajl_encode.h in Headers */,
+				3738CF0E1BEAB92200938057 /* bson-timegm-private.h in Headers */,
+				3738CF081BEAB92200938057 /* bson-reader.h in Headers */,
+				3738CEEC1BEAB92200938057 /* bson-atomic.h in Headers */,
+				3738CEF41BEAB92200938057 /* bson-endian.h in Headers */,
+				3738CF2C1BEAB92800938057 /* yajl_tree.h in Headers */,
+				3738CF061BEAB92200938057 /* bson-private.h in Headers */,
+				3738CEFE1BEAB92200938057 /* bson-keys.h in Headers */,
+				3738CEEA1BEAB92200938057 /* bcon.h in Headers */,
+				3738CEFC1BEAB92200938057 /* bson-json.h in Headers */,
+				3738CF031BEAB92200938057 /* bson-memory.h in Headers */,
+				3738CF161BEAB92200938057 /* bson-version.h in Headers */,
+				3738CF2E1BEAB92800938057 /* yajl_version.h in Headers */,
+				3738CF251BEAB92800938057 /* yajl_gen.h in Headers */,
+				3738CF1F1BEAB92800938057 /* yajl_buf.h in Headers */,
+				3738CF0D1BEAB92200938057 /* bson-thread-private.h in Headers */,
+				3738CEE21BEAB7B800938057 /* bson-osx.h in Headers */,
+				3738CF011BEAB92200938057 /* bson-md5.h in Headers */,
+				3738CF051BEAB92200938057 /* bson-oid.h in Headers */,
+				3738CF211BEAB92800938057 /* yajl_common.h in Headers */,
+				3738CF121BEAB92200938057 /* bson-utf8.h in Headers */,
+				3738CF181BEAB92200938057 /* bson-writer.h in Headers */,
+				3738CF201BEAB92800938057 /* yajl_bytestack.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		3738CD321BEA9BA800938057 /* bson */ = {
+		3738CE881BEAB61700938057 /* bson-ios */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3738CD371BEA9BA800938057 /* Build configuration list for PBXNativeTarget "bson" */;
+			buildConfigurationList = 3738CE8E1BEAB61700938057 /* Build configuration list for PBXNativeTarget "bson-ios" */;
 			buildPhases = (
-				3738CD2F1BEA9BA800938057 /* Sources */,
-				3738CD301BEA9BA800938057 /* Frameworks */,
-				3738CD311BEA9BA800938057 /* Headers */,
+				3738CE841BEAB61700938057 /* Sources */,
+				3738CE851BEAB61700938057 /* Frameworks */,
+				3738CE861BEAB61700938057 /* Headers */,
+				3738CE871BEAB61700938057 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = bson;
-			productName = bson;
-			productReference = 3738CD331BEA9BA800938057 /* libbson.dylib */;
-			productType = "com.apple.product-type.library.dynamic";
+			name = "bson-ios";
+			productName = "bson-ios";
+			productReference = 3738CE891BEAB61700938057 /* bson.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3738CEDE1BEAB7B800938057 /* bson-osx */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3738CEE41BEAB7B800938057 /* Build configuration list for PBXNativeTarget "bson-osx" */;
+			buildPhases = (
+				3738CEDA1BEAB7B800938057 /* Sources */,
+				3738CEDB1BEAB7B800938057 /* Frameworks */,
+				3738CEDC1BEAB7B800938057 /* Headers */,
+				3738CEDD1BEAB7B800938057 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "bson-osx";
+			productName = "bson-osx";
+			productReference = 3738CEDF1BEAB7B800938057 /* bson.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -75,7 +533,11 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Dan Appel";
 				TargetAttributes = {
-					3738CD321BEA9BA800938057 = {
+					3738CE881BEAB61700938057 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = M3QL4363UT;
+					};
+					3738CEDE1BEAB7B800938057 = {
 						CreatedOnToolsVersion = 7.2;
 					};
 				};
@@ -92,16 +554,99 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3738CD321BEA9BA800938057 /* bson */,
+				3738CE881BEAB61700938057 /* bson-ios */,
+				3738CEDE1BEAB7B800938057 /* bson-osx */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		3738CE871BEAB61700938057 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3738CEDD1BEAB7B800938057 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		3738CD2F1BEA9BA800938057 /* Sources */ = {
+		3738CE841BEAB61700938057 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3738CE971BEAB61F00938057 /* bson-clock.c in Sources */,
+				3738CEA71BEAB61F00938057 /* bson-keys.c in Sources */,
+				3738CEBB1BEAB61F00938057 /* bson-utf8.c in Sources */,
+				3738CEAE1BEAB61F00938057 /* bson-oid.c in Sources */,
+				3738CEAC1BEAB61F00938057 /* bson-memory.c in Sources */,
+				3738CEC31BEAB61F00938057 /* bson.c in Sources */,
+				3738CE951BEAB61F00938057 /* bson-atomic.c in Sources */,
+				3738CE931BEAB61F00938057 /* bcon.c in Sources */,
+				3738CECE1BEAB62700938057 /* yajl_gen.c in Sources */,
+				3738CEC81BEAB62700938057 /* yajl_buf.c in Sources */,
+				3738CEB51BEAB61F00938057 /* bson-string.c in Sources */,
+				3738CED01BEAB62700938057 /* yajl_lex.c in Sources */,
+				3738CEC11BEAB61F00938057 /* bson-writer.c in Sources */,
+				3738CED71BEAB62700938057 /* yajl_version.c in Sources */,
+				3738CEBF1BEAB61F00938057 /* bson-version.c in Sources */,
+				3738CEC51BEAB62700938057 /* yajl.c in Sources */,
+				3738CEAA1BEAB61F00938057 /* bson-md5.c in Sources */,
+				3738CE9F1BEAB61F00938057 /* bson-error.c in Sources */,
+				3738CEB11BEAB61F00938057 /* bson-reader.c in Sources */,
+				3738CEBD1BEAB61F00938057 /* bson-value.c in Sources */,
+				3738CED51BEAB62700938057 /* yajl_tree.c in Sources */,
+				3738CEB91BEAB61F00938057 /* bson-timegm.c in Sources */,
+				3738CEA21BEAB61F00938057 /* bson-iso8601.c in Sources */,
+				3738CECC1BEAB62700938057 /* yajl_encode.c in Sources */,
+				3738CEA51BEAB61F00938057 /* bson-json.c in Sources */,
+				3738CEA31BEAB61F00938057 /* bson-iter.c in Sources */,
+				3738CE9C1BEAB61F00938057 /* bson-context.c in Sources */,
+				3738CED31BEAB62700938057 /* yajl_parser.c in Sources */,
+				3738CEC61BEAB62700938057 /* yajl_alloc.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3738CEDA1BEAB7B800938057 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3738CEED1BEAB92200938057 /* bson-clock.c in Sources */,
+				3738CEFD1BEAB92200938057 /* bson-keys.c in Sources */,
+				3738CF111BEAB92200938057 /* bson-utf8.c in Sources */,
+				3738CF041BEAB92200938057 /* bson-oid.c in Sources */,
+				3738CF021BEAB92200938057 /* bson-memory.c in Sources */,
+				3738CF191BEAB92200938057 /* bson.c in Sources */,
+				3738CEEB1BEAB92200938057 /* bson-atomic.c in Sources */,
+				3738CEE91BEAB92200938057 /* bcon.c in Sources */,
+				3738CF241BEAB92800938057 /* yajl_gen.c in Sources */,
+				3738CF1E1BEAB92800938057 /* yajl_buf.c in Sources */,
+				3738CF0B1BEAB92200938057 /* bson-string.c in Sources */,
+				3738CF261BEAB92800938057 /* yajl_lex.c in Sources */,
+				3738CF171BEAB92200938057 /* bson-writer.c in Sources */,
+				3738CF2D1BEAB92800938057 /* yajl_version.c in Sources */,
+				3738CF151BEAB92200938057 /* bson-version.c in Sources */,
+				3738CF1B1BEAB92800938057 /* yajl.c in Sources */,
+				3738CF001BEAB92200938057 /* bson-md5.c in Sources */,
+				3738CEF51BEAB92200938057 /* bson-error.c in Sources */,
+				3738CF071BEAB92200938057 /* bson-reader.c in Sources */,
+				3738CF131BEAB92200938057 /* bson-value.c in Sources */,
+				3738CF2B1BEAB92800938057 /* yajl_tree.c in Sources */,
+				3738CF0F1BEAB92200938057 /* bson-timegm.c in Sources */,
+				3738CEF81BEAB92200938057 /* bson-iso8601.c in Sources */,
+				3738CF221BEAB92800938057 /* yajl_encode.c in Sources */,
+				3738CEFB1BEAB92200938057 /* bson-json.c in Sources */,
+				3738CEF91BEAB92200938057 /* bson-iter.c in Sources */,
+				3738CEF21BEAB92200938057 /* bson-context.c in Sources */,
+				3738CF291BEAB92800938057 /* yajl_parser.c in Sources */,
+				3738CF1C1BEAB92800938057 /* yajl_alloc.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,23 +732,100 @@
 			};
 			name = Release;
 		};
-		3738CD381BEA9BA800938057 /* Debug */ = {
+		3738CE8F1BEAB61700938057 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
-				EXECUTABLE_PREFIX = lib;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "bson-ios/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.dvappel.bson-ios";
+				PRODUCT_NAME = bson;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		3738CD391BEA9BA800938057 /* Release */ = {
+		3738CE901BEAB61700938057 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
-				EXECUTABLE_PREFIX = lib;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "bson-ios/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.dvappel.bson-ios";
+				PRODUCT_NAME = bson;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3738CEE51BEAB7B800938057 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "bson-osx/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.dvappel.bson-osx";
+				PRODUCT_NAME = bson;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3738CEE61BEAB7B800938057 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "bson-osx/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.dvappel.bson-osx";
+				PRODUCT_NAME = bson;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -219,13 +841,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3738CD371BEA9BA800938057 /* Build configuration list for PBXNativeTarget "bson" */ = {
+		3738CE8E1BEAB61700938057 /* Build configuration list for PBXNativeTarget "bson-ios" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3738CD381BEA9BA800938057 /* Debug */,
-				3738CD391BEA9BA800938057 /* Release */,
+				3738CE8F1BEAB61700938057 /* Debug */,
+				3738CE901BEAB61700938057 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3738CEE41BEAB7B800938057 /* Build configuration list for PBXNativeTarget "bson-osx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3738CEE51BEAB7B800938057 /* Debug */,
+				3738CEE61BEAB7B800938057 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
