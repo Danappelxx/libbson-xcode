@@ -19,9 +19,9 @@
 #define BSON_READER_H
 
 
-#if !defined (BSON_INSIDE) && !defined (BSON_COMPILATION)
-# error "Only <bson.h> can be included directly."
-#endif
+//#if !defined (BSON_INSIDE) && !defined (BSON_COMPILATION)
+//# error "Only <bson.h> can be included directly."
+//#endif
 
 
 #include "bson-compat.h"

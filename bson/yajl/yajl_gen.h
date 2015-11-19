@@ -20,7 +20,6 @@
  */
 
 #include "yajl_common.h"
-//#include <yajl/yajl_common.h>
 
 #ifndef __YAJL_GEN_H__
 #define __YAJL_GEN_H__

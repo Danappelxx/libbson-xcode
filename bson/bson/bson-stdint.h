@@ -2,7 +2,7 @@
 #define _SRC_BSON_BSON_STDINT_H 1
 #ifndef _GENERATED_STDINT_H
 #define _GENERATED_STDINT_H " "
-/* generated using a gnu compiler version Apple LLVM version 7.0.0 (clang-700.1.75) Target: x86_64-apple-darwin15.0.0 Thread model: posix */
+/* generated using a gnu compiler version gcc (Ubuntu 4.8.2-19ubuntu1) 4.8.2 Copyright (C) 2013 Free Software Foundation, Inc. This is free software; see the source for copying conditions. There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. */
 
 #include <stdint.h>
 

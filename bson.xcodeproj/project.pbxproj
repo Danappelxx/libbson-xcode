@@ -54,7 +54,6 @@
 		3738CEBC1BEAB61F00938057 /* bson-utf8.h in Headers */ = {isa = PBXBuildFile; fileRef = 3738CE1E1BEAB09A00938057 /* bson-utf8.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3738CEBD1BEAB61F00938057 /* bson-value.c in Sources */ = {isa = PBXBuildFile; fileRef = 3738CE1F1BEAB09A00938057 /* bson-value.c */; };
 		3738CEBE1BEAB61F00938057 /* bson-value.h in Headers */ = {isa = PBXBuildFile; fileRef = 3738CE201BEAB09A00938057 /* bson-value.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3738CEBF1BEAB61F00938057 /* bson-version.c in Sources */ = {isa = PBXBuildFile; fileRef = 3738CE211BEAB09A00938057 /* bson-version.c */; };
 		3738CEC01BEAB61F00938057 /* bson-version.h in Headers */ = {isa = PBXBuildFile; fileRef = 3738CE221BEAB09A00938057 /* bson-version.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3738CEC11BEAB61F00938057 /* bson-writer.c in Sources */ = {isa = PBXBuildFile; fileRef = 3738CE231BEAB09A00938057 /* bson-writer.c */; };
 		3738CEC21BEAB61F00938057 /* bson-writer.h in Headers */ = {isa = PBXBuildFile; fileRef = 3738CE241BEAB09A00938057 /* bson-writer.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -127,7 +126,6 @@
 		3738CF121BEAB92200938057 /* bson-utf8.h in Headers */ = {isa = PBXBuildFile; fileRef = 3738CE1E1BEAB09A00938057 /* bson-utf8.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3738CF131BEAB92200938057 /* bson-value.c in Sources */ = {isa = PBXBuildFile; fileRef = 3738CE1F1BEAB09A00938057 /* bson-value.c */; };
 		3738CF141BEAB92200938057 /* bson-value.h in Headers */ = {isa = PBXBuildFile; fileRef = 3738CE201BEAB09A00938057 /* bson-value.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3738CF151BEAB92200938057 /* bson-version.c in Sources */ = {isa = PBXBuildFile; fileRef = 3738CE211BEAB09A00938057 /* bson-version.c */; };
 		3738CF161BEAB92200938057 /* bson-version.h in Headers */ = {isa = PBXBuildFile; fileRef = 3738CE221BEAB09A00938057 /* bson-version.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3738CF171BEAB92200938057 /* bson-writer.c in Sources */ = {isa = PBXBuildFile; fileRef = 3738CE231BEAB09A00938057 /* bson-writer.c */; };
 		3738CF181BEAB92200938057 /* bson-writer.h in Headers */ = {isa = PBXBuildFile; fileRef = 3738CE241BEAB09A00938057 /* bson-writer.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -153,6 +151,10 @@
 		3738CF2C1BEAB92800938057 /* yajl_tree.h in Headers */ = {isa = PBXBuildFile; fileRef = 3738CE391BEAB09B00938057 /* yajl_tree.h */; };
 		3738CF2D1BEAB92800938057 /* yajl_version.c in Sources */ = {isa = PBXBuildFile; fileRef = 3738CE3A1BEAB09B00938057 /* yajl_version.c */; };
 		3738CF2E1BEAB92800938057 /* yajl_version.h in Headers */ = {isa = PBXBuildFile; fileRef = 3738CE3B1BEAB09B00938057 /* yajl_version.h */; };
+		37A949961BFE5E29007DE5D6 /* bson-version-functions.c in Sources */ = {isa = PBXBuildFile; fileRef = 37A949941BFE5E29007DE5D6 /* bson-version-functions.c */; };
+		37A949971BFE5E29007DE5D6 /* bson-version-functions.c in Sources */ = {isa = PBXBuildFile; fileRef = 37A949941BFE5E29007DE5D6 /* bson-version-functions.c */; };
+		37A949981BFE5E29007DE5D6 /* bson-version-functions.h in Headers */ = {isa = PBXBuildFile; fileRef = 37A949951BFE5E29007DE5D6 /* bson-version-functions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37A949991BFE5E29007DE5D6 /* bson-version-functions.h in Headers */ = {isa = PBXBuildFile; fileRef = 37A949951BFE5E29007DE5D6 /* bson-version-functions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -202,7 +204,6 @@
 		3738CE1E1BEAB09A00938057 /* bson-utf8.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "bson-utf8.h"; sourceTree = "<group>"; };
 		3738CE1F1BEAB09A00938057 /* bson-value.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "bson-value.c"; sourceTree = "<group>"; };
 		3738CE201BEAB09A00938057 /* bson-value.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "bson-value.h"; sourceTree = "<group>"; };
-		3738CE211BEAB09A00938057 /* bson-version.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "bson-version.c"; sourceTree = "<group>"; };
 		3738CE221BEAB09A00938057 /* bson-version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "bson-version.h"; sourceTree = "<group>"; };
 		3738CE231BEAB09A00938057 /* bson-writer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "bson-writer.c"; sourceTree = "<group>"; };
 		3738CE241BEAB09A00938057 /* bson-writer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "bson-writer.h"; sourceTree = "<group>"; };
@@ -234,6 +235,8 @@
 		3738CEDF1BEAB7B800938057 /* bson.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = bson.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3738CEE11BEAB7B800938057 /* bson-osx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bson-osx.h"; sourceTree = "<group>"; };
 		3738CEE31BEAB7B800938057 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37A949941BFE5E29007DE5D6 /* bson-version-functions.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "bson-version-functions.c"; sourceTree = "<group>"; };
+		37A949951BFE5E29007DE5D6 /* bson-version-functions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "bson-version-functions.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -323,8 +326,9 @@
 				3738CE1E1BEAB09A00938057 /* bson-utf8.h */,
 				3738CE1F1BEAB09A00938057 /* bson-value.c */,
 				3738CE201BEAB09A00938057 /* bson-value.h */,
-				3738CE211BEAB09A00938057 /* bson-version.c */,
 				3738CE221BEAB09A00938057 /* bson-version.h */,
+				37A949941BFE5E29007DE5D6 /* bson-version-functions.c */,
+				37A949951BFE5E29007DE5D6 /* bson-version-functions.h */,
 				3738CE231BEAB09A00938057 /* bson-writer.c */,
 				3738CE241BEAB09A00938057 /* bson-writer.h */,
 				3738CE251BEAB09A00938057 /* bson.c */,
@@ -395,6 +399,7 @@
 				3738CEA41BEAB61F00938057 /* bson-iter.h in Headers */,
 				3738CE991BEAB61F00938057 /* bson-compat.h in Headers */,
 				3738CED41BEAB62700938057 /* yajl_parser.h in Headers */,
+				37A949981BFE5E29007DE5D6 /* bson-version-functions.h in Headers */,
 				3738CEA01BEAB61F00938057 /* bson-error.h in Headers */,
 				3738CE911BEAB61F00938057 /* b64_ntop.h in Headers */,
 				3738CED11BEAB62700938057 /* yajl_lex.h in Headers */,
@@ -446,6 +451,7 @@
 				3738CEFA1BEAB92200938057 /* bson-iter.h in Headers */,
 				3738CEEF1BEAB92200938057 /* bson-compat.h in Headers */,
 				3738CF2A1BEAB92800938057 /* yajl_parser.h in Headers */,
+				37A949991BFE5E29007DE5D6 /* bson-version-functions.h in Headers */,
 				3738CEF61BEAB92200938057 /* bson-error.h in Headers */,
 				3738CEE71BEAB92200938057 /* b64_ntop.h in Headers */,
 				3738CF271BEAB92800938057 /* yajl_lex.h in Headers */,
@@ -596,7 +602,6 @@
 				3738CED01BEAB62700938057 /* yajl_lex.c in Sources */,
 				3738CEC11BEAB61F00938057 /* bson-writer.c in Sources */,
 				3738CED71BEAB62700938057 /* yajl_version.c in Sources */,
-				3738CEBF1BEAB61F00938057 /* bson-version.c in Sources */,
 				3738CEC51BEAB62700938057 /* yajl.c in Sources */,
 				3738CEAA1BEAB61F00938057 /* bson-md5.c in Sources */,
 				3738CE9F1BEAB61F00938057 /* bson-error.c in Sources */,
@@ -610,6 +615,7 @@
 				3738CEA31BEAB61F00938057 /* bson-iter.c in Sources */,
 				3738CE9C1BEAB61F00938057 /* bson-context.c in Sources */,
 				3738CED31BEAB62700938057 /* yajl_parser.c in Sources */,
+				37A949961BFE5E29007DE5D6 /* bson-version-functions.c in Sources */,
 				3738CEC61BEAB62700938057 /* yajl_alloc.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -632,7 +638,6 @@
 				3738CF261BEAB92800938057 /* yajl_lex.c in Sources */,
 				3738CF171BEAB92200938057 /* bson-writer.c in Sources */,
 				3738CF2D1BEAB92800938057 /* yajl_version.c in Sources */,
-				3738CF151BEAB92200938057 /* bson-version.c in Sources */,
 				3738CF1B1BEAB92800938057 /* yajl.c in Sources */,
 				3738CF001BEAB92200938057 /* bson-md5.c in Sources */,
 				3738CEF51BEAB92200938057 /* bson-error.c in Sources */,
@@ -646,6 +651,7 @@
 				3738CEF91BEAB92200938057 /* bson-iter.c in Sources */,
 				3738CEF21BEAB92200938057 /* bson-context.c in Sources */,
 				3738CF291BEAB92800938057 /* yajl_parser.c in Sources */,
+				37A949971BFE5E29007DE5D6 /* bson-version-functions.c in Sources */,
 				3738CF1C1BEAB92800938057 /* yajl_alloc.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
