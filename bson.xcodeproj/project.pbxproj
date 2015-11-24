@@ -741,6 +741,7 @@
 		3738CE8F1BEAB61700938057 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"ARCHS[sdk=macosx*]" = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_WARN_UNREACHABLE_CODE = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -755,7 +756,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				ONLY_ACTIVE_ARCH = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "me.dvappel.bson-ios";
 				PRODUCT_NAME = bson;
 				PROVISIONING_PROFILE = "";
@@ -770,6 +771,7 @@
 		3738CE901BEAB61700938057 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"ARCHS[sdk=macosx*]" = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_WARN_UNREACHABLE_CODE = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
